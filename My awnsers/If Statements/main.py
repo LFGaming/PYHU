@@ -1,3 +1,4 @@
+#%%
 from hidden import * # Dit importeert geheime variabelen
 
 # Voorbeeld:
@@ -13,26 +14,40 @@ if (var1 < var2):
 if (a == b):
     print('a is gelijk aan b')
 
-print('c is kleiner dan b')
+if (c < b):
+    print('c is kleiner dan b')
 
-print('d is niet gelijk aan e')
+if (d != e):
+    print('d is niet gelijk aan e')
 
-print('f is groter dan a')
+if (f > a):
+    print('f is groter dan a')
 
-print('9 is kleiner dan g')
+if (9 < g):
+    print('9 is kleiner dan g')
 
-print('c is gelijk aan 5')
+if (c == 5):
+    print('c is gelijk aan 5')
 
-print('e groter dan w')
+if (e > w):
+    print('e groter dan w')
 
-print('m kleiner dan a')
+if (m < a):
+    print('m kleiner dan a')
 
-print('w groter dan m')
+if (w > m):
+    print('w groter dan m')
 
-print('a is kleiner dan 10.0')
+if (a < 10.0):
+    print('a is kleiner dan 10.0')
 
-print('9.5 is groter dan d')
+if (9.5 > d):
+    print('9.5 is groter dan d')
 
-print('g groter dan j')
+if (g > j):
+    print('g groter dan j')
 
-print('m kleiner dan s')
+if (m < s):
+    print('m kleiner dan s')
+
+# %%
