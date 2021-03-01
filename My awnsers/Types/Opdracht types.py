@@ -35,7 +35,7 @@ t = 20 % 8 #int
 
 u = 24 #int
 v = 12 #int
-u = v = 42 #
+u = v = 42 #int
 w = u != v #bool
 
 x = 2+3*9+3**3/6 #float
