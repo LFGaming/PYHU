@@ -5,10 +5,10 @@ var1 = 'Test'
 type(var1)
 # >> <class 'str'>, dit is dus een 'str', wat string betekent
 
-a = 6
-b = 'Hello World'
-c = 2.0
-d = True
+a = 6 # integers (int)
+b = 'Hello World' # string (str)
+c = 2.0 #floats (float)
+d = True # Boolean (bool)
 
 e = a == b
 f = a > c
