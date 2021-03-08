@@ -14,7 +14,6 @@ print(average)
 # > Bekijk of het element op index 5 van deze lijst groter is dan het gemiddelde
 
 
-
 # > Wat is het laatste element in de lijst? Bekijk dit door naar het laatste element in de lijst te kijken zonder de lengte van de lijst te gebruiken.
 
 
