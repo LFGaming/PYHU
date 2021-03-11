@@ -45,7 +45,7 @@ pyramid(n)
 # Hint: gebruik twee for loops
 
 #%%
-#?
+#half
 def pyramid(n):
     myList = []
     for i in range(1,n+1):
@@ -55,14 +55,22 @@ def pyramid(n):
 n = 10
 pyramid(n)
 
-def pyramid(p):
-    myList = []
-    for i in range(1,p+1):
-        myList.append("*"*i)
-    print("\n".join(myList))
- 
-p = 11
-pyramid(p)
+#%%
+#full inverted
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print("*", end=' ')
+    print('')
+
+rows = 5
+b = 0
+# reverse for loop from 5 to 0
+for i in range(rows, 0, -1):
+    b += 1
+    for j in range(1, i + 1):
+        print("*", end=' ')
+    print('\r')
 
 # Voor een extra uitdaging bij deze opdracht kan je de driehoek ook zo maken (doe dit pas als je de rest af hebt. Let op: is erg lastig):
 #   *
@@ -70,6 +78,7 @@ pyramid(p)
 # * * *
 
 #%%
+#triangle
 def triangle(n):
      
     # number of spaces
@@ -98,6 +107,24 @@ def triangle(n):
  
 n = 5
 triangle(n)
+
+#%%
+#diamond
+n = 9
+print("Pattern 1")
+for a1 in range(1, (n+1)//2 + 1): #from row 1 to 5
+    for a2 in range((n+1)//2 - a1):
+        print(" ", end = "")
+    for a3 in range((a1*2)-1):
+        print("*", end = "")
+    print()
+
+for a1 in range((n+1)//2 + 1, n + 1): #from row 6 to 9
+    for a2 in range(a1 - (n+1)//2):
+        print(" ", end = "")
+    for a3 in range((n+1 - a1)*2 - 1):
+        print("*", end = "")
+    print()
 
 # Schrijf nu je eigen max algoritme; zoek het grootste getal uit onderstaande lijst
 # Je mag er vanuit gaan dat het kleinste getal nul is.
